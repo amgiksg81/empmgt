@@ -1,0 +1,81 @@
+F:\Code\Weekdays\Project_7AM_MWF\DomainModels\bin\Debug\DomainModels.dll.config
+F:\Code\Weekdays\Project_7AM_MWF\DomainModels\bin\Debug\DomainModels.dll
+F:\Code\Weekdays\Project_7AM_MWF\DomainModels\bin\Debug\DomainModels.pdb
+F:\Code\Weekdays\Project_7AM_MWF\DomainModels\bin\Debug\EntityFramework.dll
+F:\Code\Weekdays\Project_7AM_MWF\DomainModels\bin\Debug\EntityFramework.SqlServer.dll
+F:\Code\Weekdays\Project_7AM_MWF\DomainModels\bin\Debug\EntityFramework.xml
+F:\Code\Weekdays\Project_7AM_MWF\DomainModels\bin\Debug\EntityFramework.SqlServer.xml
+F:\Code\Weekdays\Project_7AM_MWF\DomainModels\obj\Debug\DomainModels.csprojResolveAssemblyReference.cache
+F:\Code\Weekdays\Project_7AM_MWF\DomainModels\obj\Debug\DomainModels.csproj.CoreCompileInputs.cache
+F:\Code\Weekdays\Project_7AM_MWF\DomainModels\obj\Debug\DomainModels.dll
+F:\Code\Weekdays\Project_7AM_MWF\DomainModels\obj\Debug\DomainModels.pdb
+C:\Users\Pradeep Shet\Downloads\Project_7AM_MWF\Project_7AM_MWF\DomainModels\bin\Debug\DomainModels.dll.config
+C:\Users\Pradeep Shet\Downloads\Project_7AM_MWF\Project_7AM_MWF\DomainModels\bin\Debug\DomainModels.dll
+C:\Users\Pradeep Shet\Downloads\Project_7AM_MWF\Project_7AM_MWF\DomainModels\bin\Debug\DomainModels.pdb
+C:\Users\Pradeep Shet\Downloads\Project_7AM_MWF\Project_7AM_MWF\DomainModels\bin\Debug\EntityFramework.dll
+C:\Users\Pradeep Shet\Downloads\Project_7AM_MWF\Project_7AM_MWF\DomainModels\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Pradeep Shet\Downloads\Project_7AM_MWF\Project_7AM_MWF\DomainModels\bin\Debug\EntityFramework.xml
+C:\Users\Pradeep Shet\Downloads\Project_7AM_MWF\Project_7AM_MWF\DomainModels\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Pradeep Shet\Downloads\Project_7AM_MWF\Project_7AM_MWF\DomainModels\obj\Debug\DomainModels.csprojResolveAssemblyReference.cache
+C:\Users\Pradeep Shet\Downloads\Project_7AM_MWF\Project_7AM_MWF\DomainModels\obj\Debug\DomainModels.dll
+C:\Users\Pradeep Shet\Downloads\Project_7AM_MWF\Project_7AM_MWF\DomainModels\obj\Debug\DomainModels.pdb
+C:\E\Course\DNT MVC Batch\ShoppingCart\DomainModels\bin\Debug\DomainModels.dll.config
+C:\E\Course\DNT MVC Batch\ShoppingCart\DomainModels\bin\Debug\DomainModels.dll
+C:\E\Course\DNT MVC Batch\ShoppingCart\DomainModels\bin\Debug\DomainModels.pdb
+C:\E\Course\DNT MVC Batch\ShoppingCart\DomainModels\bin\Debug\EntityFramework.dll
+C:\E\Course\DNT MVC Batch\ShoppingCart\DomainModels\bin\Debug\EntityFramework.SqlServer.dll
+C:\E\Course\DNT MVC Batch\ShoppingCart\DomainModels\bin\Debug\EntityFramework.xml
+C:\E\Course\DNT MVC Batch\ShoppingCart\DomainModels\bin\Debug\EntityFramework.SqlServer.xml
+C:\E\Course\DNT MVC Batch\ShoppingCart\DomainModels\obj\Debug\DomainModels.csprojResolveAssemblyReference.cache
+C:\E\Course\DNT MVC Batch\ShoppingCart\DomainModels\obj\Debug\DomainModels.dll
+C:\E\Course\DNT MVC Batch\ShoppingCart\DomainModels\obj\Debug\DomainModels.pdb
+F:\Practice\Dot NET\Day21\Day21\DomainModels\bin\Debug\DomainModels.dll.config
+F:\Practice\Dot NET\Day21\Day21\DomainModels\bin\Debug\DomainModels.dll
+F:\Practice\Dot NET\Day21\Day21\DomainModels\bin\Debug\DomainModels.pdb
+F:\Practice\Dot NET\Day21\Day21\DomainModels\bin\Debug\EntityFramework.dll
+F:\Practice\Dot NET\Day21\Day21\DomainModels\bin\Debug\EntityFramework.SqlServer.dll
+F:\Practice\Dot NET\Day21\Day21\DomainModels\bin\Debug\EntityFramework.xml
+F:\Practice\Dot NET\Day21\Day21\DomainModels\bin\Debug\EntityFramework.SqlServer.xml
+F:\Practice\Dot NET\Day21\Day21\DomainModels\obj\Debug\DomainModels.dll
+F:\Practice\Dot NET\Day21\Day21\DomainModels\obj\Debug\DomainModels.pdb
+F:\Practice\Dot NET\Day21\Day21\DomainModels\obj\Debug\DomainModels.csprojResolveAssemblyReference.cache
+F:\Personal\Amrik Singh\Amrik CV and Practice\Practice\Dot NET\Day21\Day21\DomainModels\bin\Debug\DomainModels.dll.config
+F:\Personal\Amrik Singh\Amrik CV and Practice\Practice\Dot NET\Day21\Day21\DomainModels\bin\Debug\DomainModels.dll
+F:\Personal\Amrik Singh\Amrik CV and Practice\Practice\Dot NET\Day21\Day21\DomainModels\bin\Debug\DomainModels.pdb
+F:\Personal\Amrik Singh\Amrik CV and Practice\Practice\Dot NET\Day21\Day21\DomainModels\bin\Debug\EntityFramework.dll
+F:\Personal\Amrik Singh\Amrik CV and Practice\Practice\Dot NET\Day21\Day21\DomainModels\bin\Debug\EntityFramework.SqlServer.dll
+F:\Personal\Amrik Singh\Amrik CV and Practice\Practice\Dot NET\Day21\Day21\DomainModels\bin\Debug\System.Web.Mvc.dll
+F:\Personal\Amrik Singh\Amrik CV and Practice\Practice\Dot NET\Day21\Day21\DomainModels\bin\Debug\EntityFramework.xml
+F:\Personal\Amrik Singh\Amrik CV and Practice\Practice\Dot NET\Day21\Day21\DomainModels\bin\Debug\EntityFramework.SqlServer.xml
+F:\Personal\Amrik Singh\Amrik CV and Practice\Practice\Dot NET\Day21\Day21\DomainModels\obj\Debug\DomainModels.csprojResolveAssemblyReference.cache
+F:\Personal\Amrik Singh\Amrik CV and Practice\Practice\Dot NET\Day21\Day21\DomainModels\obj\Debug\DomainModels.Resources.EmployeeValidations.resources
+F:\Personal\Amrik Singh\Amrik CV and Practice\Practice\Dot NET\Day21\Day21\DomainModels\obj\Debug\DomainModels.csproj.GenerateResource.Cache
+F:\Personal\Amrik Singh\Amrik CV and Practice\Practice\Dot NET\Day21\Day21\DomainModels\obj\Debug\DomainModels.dll
+F:\Personal\Amrik Singh\Amrik CV and Practice\Practice\Dot NET\Day21\Day21\DomainModels\obj\Debug\DomainModels.pdb
+F:\Workspc\EmpoyeeMgt\DomainModels\bin\Debug\DomainModels.dll.config
+F:\Workspc\EmpoyeeMgt\DomainModels\bin\Debug\DomainModels.dll
+F:\Workspc\EmpoyeeMgt\DomainModels\bin\Debug\DomainModels.pdb
+F:\Workspc\EmpoyeeMgt\DomainModels\bin\Debug\EntityFramework.dll
+F:\Workspc\EmpoyeeMgt\DomainModels\bin\Debug\EntityFramework.SqlServer.dll
+F:\Workspc\EmpoyeeMgt\DomainModels\bin\Debug\System.Web.Mvc.dll
+F:\Workspc\EmpoyeeMgt\DomainModels\bin\Debug\EntityFramework.xml
+F:\Workspc\EmpoyeeMgt\DomainModels\bin\Debug\EntityFramework.SqlServer.xml
+F:\Workspc\EmpoyeeMgt\DomainModels\obj\Debug\DomainModels.Resources.EmployeeValidations.resources
+F:\Workspc\EmpoyeeMgt\DomainModels\obj\Debug\DomainModels.csproj.GenerateResource.Cache
+F:\Workspc\EmpoyeeMgt\DomainModels\obj\Debug\DomainModels.dll
+F:\Workspc\EmpoyeeMgt\DomainModels\obj\Debug\DomainModels.pdb
+F:\Workspc\EmpoyeeMgt\DomainModels\obj\Debug\DomainModels.csprojResolveAssemblyReference.cache
+F:\Workspc\InProgress\EmpoyeeMgt\DomainModels\bin\Debug\DomainModels.dll.config
+F:\Workspc\InProgress\EmpoyeeMgt\DomainModels\bin\Debug\DomainModels.dll
+F:\Workspc\InProgress\EmpoyeeMgt\DomainModels\bin\Debug\DomainModels.pdb
+F:\Workspc\InProgress\EmpoyeeMgt\DomainModels\bin\Debug\EntityFramework.dll
+F:\Workspc\InProgress\EmpoyeeMgt\DomainModels\bin\Debug\EntityFramework.SqlServer.dll
+F:\Workspc\InProgress\EmpoyeeMgt\DomainModels\bin\Debug\System.Web.Mvc.dll
+F:\Workspc\InProgress\EmpoyeeMgt\DomainModels\bin\Debug\EntityFramework.xml
+F:\Workspc\InProgress\EmpoyeeMgt\DomainModels\bin\Debug\EntityFramework.SqlServer.xml
+F:\Workspc\InProgress\EmpoyeeMgt\DomainModels\obj\Debug\DomainModels.Resources.EmployeeValidations.resources
+F:\Workspc\InProgress\EmpoyeeMgt\DomainModels\obj\Debug\DomainModels.csproj.GenerateResource.Cache
+F:\Workspc\InProgress\EmpoyeeMgt\DomainModels\obj\Debug\DomainModels.dll
+F:\Workspc\InProgress\EmpoyeeMgt\DomainModels\obj\Debug\DomainModels.pdb
+F:\Workspc\InProgress\EmpoyeeMgt\DomainModels\obj\Debug\DomainModels.Resources.ClientValidations.resources
+F:\Workspc\InProgress\EmpoyeeMgt\DomainModels\obj\Debug\DomainModels.csprojResolveAssemblyReference.cache

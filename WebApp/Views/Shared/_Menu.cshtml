@@ -1,0 +1,47 @@
+﻿<div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            @if (CurrentUser != null && !(CurrentUser.Roles.Contains(DomainModels.Entities.UserInRoles.SUPERADMIN) || CurrentUser.Roles.Contains(DomainModels.Entities.UserInRoles.ADMIN) || CurrentUser.Roles.Contains(DomainModels.Entities.UserInRoles.HR)))
+            {
+                @Html.ActionLink("Office Management", "Index", "App", new { area = "" }, new { @class = "navbar-brand" })
+            }
+            else
+            {
+                @Html.ActionLink("Employee Management", "Index", "Employee", new { area = "Admin" }, new { @class = "navbar-brand" })
+            }
+        </div>
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav pull-right">
+                @if (CurrentUser != null)
+                {
+                    <li style="padding:15px; color:white">
+                        Welcome : @CurrentUser.Name
+                    </li>
+                    if (CurrentUser.Roles.Contains(DomainModels.Entities.UserInRoles.SUPERADMIN) || CurrentUser.Roles.Contains(DomainModels.Entities.UserInRoles.ADMIN) || CurrentUser.Roles.Contains(DomainModels.Entities.UserInRoles.HR))
+                    {
+                        <li>
+                            @Html.ActionLink("Admin DashBoard", "Index", "Home", new { area = "Admin" }, null)
+                        </li>
+                    }
+                    <li>
+                        @Html.ActionLink("SignOut", "SignOut", "Account", new { area = "" }, null)
+                    </li>
+                }
+                else
+                {
+                    <li>
+                        @Html.ActionLink("Sign In", "Login", "Account", new { area = "" }, null)
+                    </li>
+                }
+                <li *ngIf="cart!=undefined && cart.TotalItems>0">
+                    <a [routerLink]="['/cart']">{{cart.TotalItems}} Items | Rs. {{cart.Total}} </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,64 @@
+﻿@model IEnumerable<DomainModels.Entities.EmployeeDocument>
+@using Vereyon.Web;
+
+@Html.RenderFlashMessages()
+
+<div class="form-horizontal">
+    @if (Model.Count() > 0)
+    {
+        <table class="table" style="border-collapse: collapse;border: 1px solid black;" border="1">
+            <tr style="background-color: #f2f2f2;">
+                <th>
+                    Document Name
+                </th>
+                <th>
+                    Document
+                </th>
+                <th>
+                    Document Type
+                </th>
+                <th>
+                    Action
+                </th>
+            </tr>
+
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.ImageName)
+                    </td>
+                    <td>
+                        @*<img src="@ViewBag.DocumentPath/@item.EmployeeDocId@item.ImagePath" style="height:50px;width:50px;" />*@
+                        @Html.ActionLink("View Document", "DocumentView", new { id = item.EmployeeDocId })
+                    </td>
+                    <td style="vertical-align:middle;">
+                        <img src="@Common.FileTypeIcons/@String.Format("{0}.jpg",item.FileType)" style="height:30px;width:30px;" />
+                    </td>
+                    <td>
+                        @Html.ActionLink("Download Document", "DownloadDocument", new { id = item.EmployeeDocId }) |
+                        @Html.ActionLink("Delete Document", "DeleteDocument", new { id = item.EmployeeDocId }, new { onclick = "return confirm('Do you want to delete this document?')" })
+                    </td>
+                </tr>
+            }
+
+        </table>
+    }
+    else
+    {
+        <table class="table">
+            <tr>
+                <th>
+                    No Document(s) Found.
+                </th>
+            </tr>
+        </table>
+    }
+    <table class="table" style="border-collapse: collapse;">
+        <tr>
+            <td>
+                @Html.ActionLink("Add New Document", "DocumentAddNew", new { id = ViewBag.EmployeeID }, new { @class = "btn btn-default btn-sm" })
+            </td>
+        </tr>
+    </table>
+</div>

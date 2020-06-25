@@ -1,0 +1,86 @@
+﻿@model IEnumerable<DomainModels.Entities.Employee>
+@using Vereyon.Web;
+@{
+    ViewBag.Title = "Employees List";
+}
+
+<h3>Employees List</h3>
+
+<p>
+    @Html.ActionLink("Add New Employee", "Create", null, new { @class = "btn btn-default btn-sm" })
+</p>
+
+@Html.RenderFlashMessages()
+
+@if (Model.Count() > 0)
+{
+    <table class="table" style="border-collapse: collapse;border: 1px solid black;" border="1">
+        <tr style="background-color: #f2f2f2;">
+            <th>
+                Full Name
+            </th>
+            <th>
+                Email ID
+            </th>
+            <th>
+                Joining Date
+            </th>
+            <th>
+                Roles
+            </th>
+            <th>
+                Date of Birth
+            </th>
+            <th>
+                Profile Image
+            </th>
+            <th>
+                Action
+            </th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td style="vertical-align:middle;">
+                    @Html.ActionLink(item.EmpFullName, "Details", new { id = item.EmployeeId })
+                </td>
+                <td style="vertical-align:middle;">
+                    @Html.DisplayFor(modelItem => item.EmpEmailID)
+                </td>
+                <td style="vertical-align:middle;">
+                    @String.Format("{0:dd/MMM/yyyy}", item.JoiningDate)
+                </td>
+                <td style="vertical-align:middle;">
+                    @Html.Action("ShowUserRoles", new { id = item.UserId})
+                </td>
+                <td style="vertical-align:middle;">
+                    @String.Format("{0:dd/MMM/yyyy}", item.EmpDOB)
+                </td>
+                <td style="vertical-align:middle;">
+                    @if (!string.IsNullOrEmpty(item.ProfileImage))
+                    {<img src="@Common.ProfileImagePath@item.EmployeeId/@item.ProfileImage" style="height:50px;width:50px;" />}
+                    else
+                    {<img src="@Common.ProfileImagePath/sample.jpg" style="height:50px;width:50px;" />}
+                </td>
+                <td style="vertical-align:middle;">
+                    @if (item.EmpEmailID != DomainModels.Resources.EmployeeValidations.SuperAdminEmailID)
+                    {
+                        @Html.Action("UserActions","Employee",new { emp = item })
+                    }
+                </td>
+            </tr>
+        }
+
+    </table>
+}
+else
+{
+    <table class="table">
+        <tr>
+            <th>
+                No Record(s) Found.
+            </th>
+        </tr>
+    </table>
+}

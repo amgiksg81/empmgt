@@ -1,0 +1,16 @@
+F:\Practice\Dot NET\Day21\Day21\BAL\bin\Release\BAL.dll.config
+F:\Practice\Dot NET\Day21\Day21\BAL\bin\Release\BAL.dll
+F:\Practice\Dot NET\Day21\Day21\BAL\bin\Release\BAL.pdb
+F:\Practice\Dot NET\Day21\Day21\BAL\bin\Release\DAL.dll
+F:\Practice\Dot NET\Day21\Day21\BAL\bin\Release\DomainModels.dll
+F:\Practice\Dot NET\Day21\Day21\BAL\bin\Release\EntityFramework.dll
+F:\Practice\Dot NET\Day21\Day21\BAL\bin\Release\EntityFramework.SqlServer.dll
+F:\Practice\Dot NET\Day21\Day21\BAL\bin\Release\DAL.pdb
+F:\Practice\Dot NET\Day21\Day21\BAL\bin\Release\DAL.dll.config
+F:\Practice\Dot NET\Day21\Day21\BAL\bin\Release\DomainModels.pdb
+F:\Practice\Dot NET\Day21\Day21\BAL\bin\Release\DomainModels.dll.config
+F:\Practice\Dot NET\Day21\Day21\BAL\bin\Release\EntityFramework.xml
+F:\Practice\Dot NET\Day21\Day21\BAL\bin\Release\EntityFramework.SqlServer.xml
+F:\Practice\Dot NET\Day21\Day21\BAL\obj\Release\BAL.csprojResolveAssemblyReference.cache
+F:\Practice\Dot NET\Day21\Day21\BAL\obj\Release\BAL.dll
+F:\Practice\Dot NET\Day21\Day21\BAL\obj\Release\BAL.pdb

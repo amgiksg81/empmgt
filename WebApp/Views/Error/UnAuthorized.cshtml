@@ -1,0 +1,41 @@
+﻿
+@{
+    ViewBag.Title = "UnAuthorized";
+}
+
+<h2>Not Authorized!!</h2>
+
+<style>
+    .error-template {
+        padding: 40px 15px;
+        text-align: center;
+    }
+
+    .error-actions {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+        .error-actions .btn {
+            margin-right: 10px;
+        }
+</style>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="error-template">
+                <h1>
+                    Oops!
+                </h1>
+                <div class="error-details">
+                    Sorry, you are not authorized for this action. Please contract Administrator.
+                </div>
+                <div class="error-actions">
+                    @Html.ActionLink("Go Back To Home Page", "Index", "App", new { area = "" }, new { @class = "btn btn-default btn-lg" })
+                    <a href="http://www.ostsolutions.net/contact-us/" target="_blank" class="btn btn-default btn-lg"><span class="glyphicon glyphicon-envelope"></span> Contact Support </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

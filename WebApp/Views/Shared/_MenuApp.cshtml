@@ -1,0 +1,69 @@
+﻿<div class="navbar navbar-inverse navbar-fixed-top">
+
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            @if (CurrentUser != null && !(CurrentUser.Roles.Contains(DomainModels.Entities.UserInRoles.SUPERADMIN) || CurrentUser.Roles.Contains(DomainModels.Entities.UserInRoles.ADMIN) || CurrentUser.Roles.Contains(DomainModels.Entities.UserInRoles.HR)))
+            {
+                @Html.ActionLink("Office Management", "Index", "App", new { area = "" }, new { @class = "navbar-brand" })
+            }
+            else
+            {
+                @Html.ActionLink("Employee Management", "Index", "Employee", new { area = "Admin" }, new { @class = "navbar-brand" })
+            }
+        </div>
+        <div class="navbar-collapse collapse">
+            @if (CurrentUser != null && (Context.Request.Url.ToString().ToLower().IndexOf("admin") != -1))
+            {
+                <ul class="nav navbar-nav">
+                    @*<li>
+                        @Html.ActionLink("Category List", "Index", "Category")
+                    </li>
+                    <li>
+                        @Html.ActionLink("Product List", "Index", "Product")
+                    </li>*@
+                    <li>
+                        
+                    </li>
+                </ul>
+                <ul class="nav navbar-nav pull-right">
+                    <li style="padding:15px; color:white">
+                        Welcome : @CurrentUser.Name
+                    </li>
+                    <li>
+                        @Html.ActionLink("SignOut", "SignOut", "Account", new { area = "" }, null)
+                    </li>
+                </ul>
+            }
+            else if (CurrentUser != null)
+            {
+                <ul class="nav navbar-nav pull-right">
+                    <li style="padding:15px; color:white">
+                        Welcome : @CurrentUser.Name
+                    </li>
+                    @if (CurrentUser.Roles.Contains(DomainModels.Entities.UserInRoles.SUPERADMIN) || CurrentUser.Roles.Contains(DomainModels.Entities.UserInRoles.ADMIN) || CurrentUser.Roles.Contains(DomainModels.Entities.UserInRoles.HR))
+                    {
+                    <li>
+                        @Html.ActionLink("Admin DashBoard", "Index", "Home", new { area = "Admin" }, null)
+                    </li>
+                    }
+                    <li>
+                        @Html.ActionLink("SignOut", "SignOut", "Account", new { area = "" }, null)
+                    </li>
+                </ul>
+            }
+            else
+            {
+                <ul class="nav navbar-nav pull-right">
+                    <li>
+                        @Html.ActionLink("Sign In", "Login", "Account", new { area = "" }, null) Test
+                    </li>
+                </ul>
+            }
+        </div>
+    </div>
+</div>

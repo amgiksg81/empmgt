@@ -1,0 +1,110 @@
+F:\Code\Weekdays\Project_7AM_MWF\DAL\bin\Debug\DAL.dll.config
+F:\Code\Weekdays\Project_7AM_MWF\DAL\bin\Debug\DAL.dll
+F:\Code\Weekdays\Project_7AM_MWF\DAL\bin\Debug\DAL.pdb
+F:\Code\Weekdays\Project_7AM_MWF\DAL\bin\Debug\DomainModels.dll
+F:\Code\Weekdays\Project_7AM_MWF\DAL\bin\Debug\EntityFramework.dll
+F:\Code\Weekdays\Project_7AM_MWF\DAL\bin\Debug\EntityFramework.SqlServer.dll
+F:\Code\Weekdays\Project_7AM_MWF\DAL\bin\Debug\DomainModels.pdb
+F:\Code\Weekdays\Project_7AM_MWF\DAL\bin\Debug\DomainModels.dll.config
+F:\Code\Weekdays\Project_7AM_MWF\DAL\bin\Debug\EntityFramework.xml
+F:\Code\Weekdays\Project_7AM_MWF\DAL\bin\Debug\EntityFramework.SqlServer.xml
+F:\Code\Weekdays\Project_7AM_MWF\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+F:\Code\Weekdays\Project_7AM_MWF\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+F:\Code\Weekdays\Project_7AM_MWF\DAL\obj\Debug\DAL.dll
+F:\Code\Weekdays\Project_7AM_MWF\DAL\obj\Debug\DAL.pdb
+F:\Code\Weekdays\Project_7AM_MWF\DAL\obj\Debug\DAL.Migrations.initial.resources
+F:\Code\Weekdays\Project_7AM_MWF\DAL\obj\Debug\DAL.csproj.GenerateResource.Cache
+C:\Users\Pradeep Shet\Downloads\Project_7AM_MWF\Project_7AM_MWF\DAL\bin\Debug\DAL.dll.config
+C:\Users\Pradeep Shet\Downloads\Project_7AM_MWF\Project_7AM_MWF\DAL\bin\Debug\DAL.dll
+C:\Users\Pradeep Shet\Downloads\Project_7AM_MWF\Project_7AM_MWF\DAL\bin\Debug\DAL.pdb
+C:\Users\Pradeep Shet\Downloads\Project_7AM_MWF\Project_7AM_MWF\DAL\bin\Debug\DomainModels.dll
+C:\Users\Pradeep Shet\Downloads\Project_7AM_MWF\Project_7AM_MWF\DAL\bin\Debug\EntityFramework.dll
+C:\Users\Pradeep Shet\Downloads\Project_7AM_MWF\Project_7AM_MWF\DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Pradeep Shet\Downloads\Project_7AM_MWF\Project_7AM_MWF\DAL\bin\Debug\DomainModels.pdb
+C:\Users\Pradeep Shet\Downloads\Project_7AM_MWF\Project_7AM_MWF\DAL\bin\Debug\EntityFramework.xml
+C:\Users\Pradeep Shet\Downloads\Project_7AM_MWF\Project_7AM_MWF\DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Pradeep Shet\Downloads\Project_7AM_MWF\Project_7AM_MWF\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+C:\Users\Pradeep Shet\Downloads\Project_7AM_MWF\Project_7AM_MWF\DAL\obj\Debug\DAL.Migrations.initial.resources
+C:\Users\Pradeep Shet\Downloads\Project_7AM_MWF\Project_7AM_MWF\DAL\obj\Debug\DAL.csproj.GenerateResource.Cache
+C:\Users\Pradeep Shet\Downloads\Project_7AM_MWF\Project_7AM_MWF\DAL\obj\Debug\DAL.dll
+C:\Users\Pradeep Shet\Downloads\Project_7AM_MWF\Project_7AM_MWF\DAL\obj\Debug\DAL.pdb
+C:\E\Course\DNT MVC Batch\ShoppingCart\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+C:\E\Course\DNT MVC Batch\ShoppingCart\DAL\obj\Debug\DAL.dll
+C:\E\Course\DNT MVC Batch\ShoppingCart\DAL\obj\Debug\DAL.pdb
+C:\E\Course\DNT MVC Batch\ShoppingCart\DAL\bin\Debug\DAL.dll.config
+C:\E\Course\DNT MVC Batch\ShoppingCart\DAL\bin\Debug\DAL.dll
+C:\E\Course\DNT MVC Batch\ShoppingCart\DAL\bin\Debug\DAL.pdb
+C:\E\Course\DNT MVC Batch\ShoppingCart\DAL\bin\Debug\DomainModels.dll
+C:\E\Course\DNT MVC Batch\ShoppingCart\DAL\bin\Debug\EntityFramework.dll
+C:\E\Course\DNT MVC Batch\ShoppingCart\DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\E\Course\DNT MVC Batch\ShoppingCart\DAL\bin\Debug\DomainModels.pdb
+C:\E\Course\DNT MVC Batch\ShoppingCart\DAL\bin\Debug\EntityFramework.xml
+C:\E\Course\DNT MVC Batch\ShoppingCart\DAL\bin\Debug\EntityFramework.SqlServer.xml
+F:\Practice\Dot NET\Day21\Day21\DAL\bin\Debug\DAL.dll.config
+F:\Practice\Dot NET\Day21\Day21\DAL\bin\Debug\DAL.dll
+F:\Practice\Dot NET\Day21\Day21\DAL\bin\Debug\DAL.pdb
+F:\Practice\Dot NET\Day21\Day21\DAL\bin\Debug\DomainModels.dll
+F:\Practice\Dot NET\Day21\Day21\DAL\bin\Debug\EntityFramework.dll
+F:\Practice\Dot NET\Day21\Day21\DAL\bin\Debug\EntityFramework.SqlServer.dll
+F:\Practice\Dot NET\Day21\Day21\DAL\bin\Debug\DomainModels.pdb
+F:\Practice\Dot NET\Day21\Day21\DAL\bin\Debug\DomainModels.dll.config
+F:\Practice\Dot NET\Day21\Day21\DAL\bin\Debug\EntityFramework.xml
+F:\Practice\Dot NET\Day21\Day21\DAL\bin\Debug\EntityFramework.SqlServer.xml
+F:\Practice\Dot NET\Day21\Day21\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+F:\Practice\Dot NET\Day21\Day21\DAL\obj\Debug\DAL.dll
+F:\Practice\Dot NET\Day21\Day21\DAL\obj\Debug\DAL.pdb
+F:\Personal\Amrik Singh\Amrik CV and Practice\Practice\Dot NET\Day21\Day21\DAL\bin\Debug\DAL.dll.config
+F:\Personal\Amrik Singh\Amrik CV and Practice\Practice\Dot NET\Day21\Day21\DAL\bin\Debug\DAL.dll
+F:\Personal\Amrik Singh\Amrik CV and Practice\Practice\Dot NET\Day21\Day21\DAL\bin\Debug\DAL.pdb
+F:\Personal\Amrik Singh\Amrik CV and Practice\Practice\Dot NET\Day21\Day21\DAL\bin\Debug\DomainModels.dll
+F:\Personal\Amrik Singh\Amrik CV and Practice\Practice\Dot NET\Day21\Day21\DAL\bin\Debug\EntityFramework.dll
+F:\Personal\Amrik Singh\Amrik CV and Practice\Practice\Dot NET\Day21\Day21\DAL\bin\Debug\EntityFramework.SqlServer.dll
+F:\Personal\Amrik Singh\Amrik CV and Practice\Practice\Dot NET\Day21\Day21\DAL\bin\Debug\System.Web.Mvc.dll
+F:\Personal\Amrik Singh\Amrik CV and Practice\Practice\Dot NET\Day21\Day21\DAL\bin\Debug\DomainModels.pdb
+F:\Personal\Amrik Singh\Amrik CV and Practice\Practice\Dot NET\Day21\Day21\DAL\bin\Debug\DomainModels.dll.config
+F:\Personal\Amrik Singh\Amrik CV and Practice\Practice\Dot NET\Day21\Day21\DAL\bin\Debug\EntityFramework.xml
+F:\Personal\Amrik Singh\Amrik CV and Practice\Practice\Dot NET\Day21\Day21\DAL\bin\Debug\EntityFramework.SqlServer.xml
+F:\Personal\Amrik Singh\Amrik CV and Practice\Practice\Dot NET\Day21\Day21\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+F:\Personal\Amrik Singh\Amrik CV and Practice\Practice\Dot NET\Day21\Day21\DAL\obj\Debug\DAL.Migrations.InitialCreate.resources
+F:\Personal\Amrik Singh\Amrik CV and Practice\Practice\Dot NET\Day21\Day21\DAL\obj\Debug\DAL.Migrations.ProfileImage.resources
+F:\Personal\Amrik Singh\Amrik CV and Practice\Practice\Dot NET\Day21\Day21\DAL\obj\Debug\DAL.Migrations.EmployeeFieldsUpdate.resources
+F:\Personal\Amrik Singh\Amrik CV and Practice\Practice\Dot NET\Day21\Day21\DAL\obj\Debug\DAL.Migrations.EmployeeFieldsUpdate2.resources
+F:\Personal\Amrik Singh\Amrik CV and Practice\Practice\Dot NET\Day21\Day21\DAL\obj\Debug\DAL.Migrations.EmployeeFieldsUpdate3.resources
+F:\Personal\Amrik Singh\Amrik CV and Practice\Practice\Dot NET\Day21\Day21\DAL\obj\Debug\DAL.Migrations.Migration1.resources
+F:\Personal\Amrik Singh\Amrik CV and Practice\Practice\Dot NET\Day21\Day21\DAL\obj\Debug\DAL.Migrations.Migration2.resources
+F:\Personal\Amrik Singh\Amrik CV and Practice\Practice\Dot NET\Day21\Day21\DAL\obj\Debug\DAL.Migrations.Migration3.resources
+F:\Personal\Amrik Singh\Amrik CV and Practice\Practice\Dot NET\Day21\Day21\DAL\obj\Debug\DAL.Migrations.addfiletype.resources
+F:\Personal\Amrik Singh\Amrik CV and Practice\Practice\Dot NET\Day21\Day21\DAL\obj\Debug\DAL.csproj.GenerateResource.Cache
+F:\Personal\Amrik Singh\Amrik CV and Practice\Practice\Dot NET\Day21\Day21\DAL\obj\Debug\DAL.dll
+F:\Personal\Amrik Singh\Amrik CV and Practice\Practice\Dot NET\Day21\Day21\DAL\obj\Debug\DAL.pdb
+F:\Workspc\EmpoyeeMgt\DAL\bin\Debug\DAL.dll.config
+F:\Workspc\EmpoyeeMgt\DAL\bin\Debug\DAL.dll
+F:\Workspc\EmpoyeeMgt\DAL\bin\Debug\DAL.pdb
+F:\Workspc\EmpoyeeMgt\DAL\bin\Debug\DomainModels.dll
+F:\Workspc\EmpoyeeMgt\DAL\bin\Debug\EntityFramework.dll
+F:\Workspc\EmpoyeeMgt\DAL\bin\Debug\EntityFramework.SqlServer.dll
+F:\Workspc\EmpoyeeMgt\DAL\bin\Debug\System.Web.Mvc.dll
+F:\Workspc\EmpoyeeMgt\DAL\bin\Debug\DomainModels.pdb
+F:\Workspc\EmpoyeeMgt\DAL\bin\Debug\DomainModels.dll.config
+F:\Workspc\EmpoyeeMgt\DAL\bin\Debug\EntityFramework.xml
+F:\Workspc\EmpoyeeMgt\DAL\bin\Debug\EntityFramework.SqlServer.xml
+F:\Workspc\EmpoyeeMgt\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+F:\Workspc\EmpoyeeMgt\DAL\obj\Debug\DAL.dll
+F:\Workspc\EmpoyeeMgt\DAL\obj\Debug\DAL.pdb
+F:\Workspc\InProgress\EmpoyeeMgt\DAL\bin\Debug\DAL.dll.config
+F:\Workspc\InProgress\EmpoyeeMgt\DAL\bin\Debug\DAL.dll
+F:\Workspc\InProgress\EmpoyeeMgt\DAL\bin\Debug\DAL.pdb
+F:\Workspc\InProgress\EmpoyeeMgt\DAL\bin\Debug\DomainModels.dll
+F:\Workspc\InProgress\EmpoyeeMgt\DAL\bin\Debug\EntityFramework.dll
+F:\Workspc\InProgress\EmpoyeeMgt\DAL\bin\Debug\EntityFramework.SqlServer.dll
+F:\Workspc\InProgress\EmpoyeeMgt\DAL\bin\Debug\System.Web.Mvc.dll
+F:\Workspc\InProgress\EmpoyeeMgt\DAL\bin\Debug\DomainModels.pdb
+F:\Workspc\InProgress\EmpoyeeMgt\DAL\bin\Debug\DomainModels.dll.config
+F:\Workspc\InProgress\EmpoyeeMgt\DAL\bin\Debug\EntityFramework.xml
+F:\Workspc\InProgress\EmpoyeeMgt\DAL\bin\Debug\EntityFramework.SqlServer.xml
+F:\Workspc\InProgress\EmpoyeeMgt\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+F:\Workspc\InProgress\EmpoyeeMgt\DAL\obj\Debug\DAL.dll
+F:\Workspc\InProgress\EmpoyeeMgt\DAL\obj\Debug\DAL.pdb
+F:\Workspc\InProgress\EmpoyeeMgt\DAL\obj\Debug\DAL.Migrations.InitialCreate.resources
+F:\Workspc\InProgress\EmpoyeeMgt\DAL\obj\Debug\DAL.csproj.GenerateResource.Cache
+F:\Workspc\InProgress\EmpoyeeMgt\DAL\obj\Debug\DAL.Migrations.ClientFunctionality.resources

@@ -1,0 +1,39 @@
+﻿
+@{
+    ViewBag.Title = "DocumentView";
+}
+
+<h3>@ViewBag.EmpFullName's Documents</h3>
+
+<div>
+    @Html.ActionLink("Back to Employees List", "Index") /
+    @Html.ActionLink("Back to Document List", "DocumentList", new { id = ViewBag.EmployeeId })
+</div>
+<br />
+<div>
+    @Html.ActionLink("Download Document", "DownloadDocument", new { id = ViewBag.EmployeeDocId }, new { @class = "btn btn-default btn-sm" }) -
+    @if (ViewBag.Print=="false")
+    {
+        @Html.ActionLink("Print Document", "DocumentPrint", new { id = ViewBag.EmployeeDocId }, new { @class = "btn btn-default btn-sm" }) <span>-</span>
+    }
+    @Html.ActionLink("Delete Document", "DeleteDocument", new { id = ViewBag.EmployeeDocId }, new { @class = "btn btn-default btn-sm" })
+</div>
+<br />
+
+<div class="form-horizontal">
+    <table class="table" style="border-collapse: collapse;border: 1px solid black;">
+        <tr style="background-color: #f2f2f2;" align="center">
+            <th>Document Content</th>
+        </tr>
+        <tr>
+            <td style="vertical-align:middle;">
+                @Html.Raw(ViewBag.Content)
+            </td>
+        </tr>
+    </table>
+</div>
+
+<div>
+    @Html.ActionLink("Back to Employees List", "Index") /
+    @Html.ActionLink("Back to Document List", "DocumentList", new { id = ViewBag.EmployeeId })
+</div>

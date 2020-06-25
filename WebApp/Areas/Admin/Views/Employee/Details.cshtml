@@ -1,0 +1,164 @@
+﻿@model DomainModels.Models.EmployeeModel
+
+@{
+    ViewBag.Title = "Employee Details";
+}
+
+<h3>Employee Details: @Model.EmpFullName</h3>
+
+<p>
+    @Html.ActionLink("Back to Employees List", "Index")
+    @if (@ViewBag.ShowActions == true)
+    {
+        <span> / </span>
+        @Html.ActionLink("Documents", "DocumentList", new { id = Model.EmployeeId })
+    }
+</p>
+@if (@ViewBag.ShowActions == true)
+{
+    <br />
+    <div>
+        @Html.ActionLink("Edit", "Edit", new { id = Model.EmployeeId }, new { @class = "btn btn-default btn-sm" })
+        
+        @if (ViewBag.ShowDelete)
+        {
+            <span> - </span>
+            @Html.ActionLink("Delete", "Delete", new { id = Model.EmployeeId, UserId = Model.UserId, file = Model.ProfileImage }, new { onclick = "return confirm('Do you want to delete this employee\\'s record?')", @class = "btn btn-default btn-sm" })
+        }
+    </div>
+}
+<hr />
+
+<div>
+
+    <table class="table" style="border-collapse: collapse;border: 1px solid black;">
+        <tr>
+            <td style="vertical-align:middle;" colspan="2"><img src="@ViewBag.ProfileImage" style="height:100px;width:100px;" /></td>
+        </tr>
+        <tr>
+            <td style="vertical-align:middle;">@Html.DisplayNameFor(model => model.EmpFullName)</td>
+            <td style="vertical-align:middle;">@Html.DisplayFor(model => model.EmpFullName)</td>
+        </tr>
+        <tr>
+            <td style="vertical-align:middle;">@Html.DisplayNameFor(model => model.Roles)</td>
+            <td style="vertical-align:middle;">@Html.Action("ShowUserRoles", new { id = Model.UserId })</td>
+        </tr>
+        <tr>
+            <td style="vertical-align:middle;">@Html.DisplayNameFor(model => model.EmpFatherName)</td>
+            <td style="vertical-align:middle;">@Html.DisplayFor(model => model.EmpFatherName)</td>
+        </tr>
+        <tr>
+            <td style="vertical-align:middle;">@Html.DisplayNameFor(model => model.EmpMotherName)</td>
+            <td style="vertical-align:middle;">@Html.DisplayFor(model => model.EmpMotherName)</td>
+        </tr>
+        <tr>
+            <td style="vertical-align:middle;">
+                @Html.DisplayNameFor(model => model.EmpEmailID)
+                - <img src="~/images/email.jpg" width="18" height="14" />
+            </td>
+            <td style="vertical-align:middle;">@Html.DisplayFor(model => model.EmpEmailID)</td>
+        </tr>
+        <tr>
+            <td style="vertical-align:middle;">@Html.DisplayNameFor(model => model.EmpPersonalEmailID)</td>
+            <td style="vertical-align:middle;">@Html.DisplayFor(model => model.EmpPersonalEmailID)</td>
+        </tr>
+        <tr>
+            <td style="vertical-align:middle;">@Html.DisplayNameFor(model => model.OfficialSkypeID)</td>
+            <td style="vertical-align:middle;">@Html.DisplayFor(model => model.OfficialSkypeID)</td>
+        </tr>
+        <tr>
+            <td style="vertical-align:middle;">@Html.DisplayNameFor(model => model.PersonalSkypeID)</td>
+            <td style="vertical-align:middle;">@Html.DisplayFor(model => model.PersonalSkypeID)</td>
+        </tr>
+        <tr>
+            <td style="vertical-align:middle;">
+                @Html.DisplayNameFor(model => model.EmpDOB)
+                - <img src="~/images/birthday.jpg" width="30" height="30" />
+            </td>
+            <td style="vertical-align:middle;"><b>@String.Format("{0:dd/MMMM/yyyy}", @Model.EmpDOB)</b></td>
+        </tr>
+        <tr>
+            <td style="vertical-align:middle;">@Html.DisplayNameFor(model => model.PANNumber)</td>
+            <td style="vertical-align:middle;">@Html.DisplayFor(model => model.PANNumber)</td>
+        </tr>
+        <tr>
+            <td style="vertical-align:middle;">@Html.DisplayNameFor(model => model.AadharNumber)</td>
+            <td style="vertical-align:middle;">@Html.DisplayFor(model => model.AadharNumber)</td>
+        </tr>
+        <tr>
+            <td style="vertical-align:middle;">@Html.DisplayNameFor(model => model.TotalPrevExperience)</td>
+            <td style="vertical-align:middle;">@Html.DisplayFor(model => model.TotalPrevExperience)</td>
+        </tr>
+        <tr>
+            <td style="vertical-align:middle;">@Html.DisplayNameFor(model => model.PrevCompanySalary)</td>
+            <td style="vertical-align:middle;">@Html.DisplayFor(model => model.PrevCompanySalary)</td>
+        </tr>
+        <tr>
+            <td style="vertical-align:middle;">@Html.DisplayNameFor(model => model.SalaryHiredAt)</td>
+            <td style="vertical-align:middle;">@Html.DisplayFor(model => model.SalaryHiredAt)</td>
+        </tr>
+        <tr>
+            <td style="vertical-align:middle;">@Html.DisplayNameFor(model => model.LastDrawnSalary)</td>
+            <td style="vertical-align:middle;">@Html.DisplayFor(model => model.LastDrawnSalary)</td>
+        </tr>
+        <tr>
+            <td style="vertical-align:middle;">@Html.DisplayNameFor(model => model.JoiningDate)</td>
+            <td style="vertical-align:middle;">@String.Format("{0:dd/MMMM/yyyy}", @Model.JoiningDate)</td>
+        </tr>
+        <tr>
+            <td style="vertical-align:middle;">@Html.DisplayNameFor(model => model.ResignDate)</td>
+            <td style="vertical-align:middle;">@String.Format("{0:dd/MMMM/yyyy}", @Model.ResignDate)</td>
+        </tr>
+        <tr>
+            <td style="vertical-align:middle;">@Html.DisplayNameFor(model => model.RelievingDate)</td>
+            <td style="vertical-align:middle;">@Html.DisplayFor(model => model.RelievingDate)</td>
+        </tr>
+        <tr>
+            <td style="vertical-align:middle;">@Html.DisplayNameFor(model => model.ResignReason)</td>
+            <td style="vertical-align:middle;">@String.Format("{0:dd/MMMM/yyyy}", @Model.ResignReason)</td>
+        </tr>
+        <tr>
+            <td style="vertical-align:middle;">@Html.DisplayNameFor(model => model.LocalAddress)</td>
+            <td style="vertical-align:middle;">@Html.DisplayFor(model => model.LocalAddress)</td>
+        </tr>
+        <tr>
+            <td style="vertical-align:middle;">@Html.DisplayNameFor(model => model.PermanentAddress)</td>
+            <td style="vertical-align:middle;">@Html.DisplayFor(model => model.PermanentAddress)</td>
+        </tr>
+        <tr>
+            <td style="vertical-align:middle;">@Html.DisplayNameFor(model => model.ContactNo)</td>
+            <td style="vertical-align:middle;">@Html.DisplayFor(model => model.ContactNo)</td>
+        </tr>
+        <tr>
+            <td style="vertical-align:middle;">@Html.DisplayNameFor(model => model.Reference1)</td>
+            <td style="vertical-align:middle;">@Html.DisplayFor(model => model.Reference1)</td>
+        </tr>
+        <tr>
+            <td style="vertical-align:middle;">@Html.DisplayNameFor(model => model.Reference1No)</td>
+            <td style="vertical-align:middle;">@Html.DisplayFor(model => model.Reference1No)</td>
+        </tr>
+        <tr>
+            <td style="vertical-align:middle;">@Html.DisplayNameFor(model => model.Reference2)</td>
+            <td style="vertical-align:middle;">@Html.DisplayFor(model => model.Reference2)</td>
+        </tr>
+        <tr>
+            <td style="vertical-align:middle;">@Html.DisplayNameFor(model => model.Reference2No)</td>
+            <td style="vertical-align:middle;">@Html.DisplayFor(model => model.Reference2No)</td>
+        </tr>
+    </table>
+</div>
+@if (@ViewBag.ShowActions == true)
+{
+    <div id="List"></div>
+    <hr />
+    <h4>Documents</h4>
+    @Html.Action("DocumentPartialList", new { id = Model.EmployeeId })
+}
+<p>
+    @Html.ActionLink("Back to Employees List", "Index")
+    @if (@ViewBag.ShowActions == true)
+    {
+        <span> / </span>
+        @Html.ActionLink("Documents", "DocumentList", new { id = Model.EmployeeId })
+    }
+</p>

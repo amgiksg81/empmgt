@@ -1,0 +1,13 @@
+﻿@model IEnumerable<DomainModels.Entities.EmployeeDocument>
+
+@{
+    ViewBag.Title = "List Of Documents";
+}
+
+<h3>@ViewBag.EmpFullName's Documents</h3>
+
+<p>
+    @Html.ActionLink("Back to Employees List", "Index")
+</p>
+
+@Html.Action("DocumentPartialList", new { id = ViewBag.EmployeeId })
